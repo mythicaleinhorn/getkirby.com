@@ -63,6 +63,10 @@ echo $kirby->render();
 Note that the path to `/vendor/autoload.php` might vary depending on your setup, for example when you install Kirby with Composer.
 </info>
 
+### .htaccess
+
+For this setup to work properly, you also need to move the .htaccess file into the public folder.
+
 ###  Shared storage folder
 
 This example does not only use a public folder setup, it also places accounts, cache and sessions folders in a shared storage folder. This can be a useful pattern to keep track of those additional folders that need to be writable by Kirby.
